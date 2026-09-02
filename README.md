@@ -13,6 +13,16 @@ Target platform: **AMD Kria KV260 Vision AI Starter Kit**
 
 ---
 
+## Motivation
+
+This project was developed as part of a self-directed exploration of hardware architectures for AI acceleration.
+
+Modern neural-network workloads rely heavily on structured numerical operations, parallel computation, and efficient data movement. The project investigates how these computational patterns can be translated into dedicated RTL architectures, including systolic processing structures and neural processing elements.
+
+The primary motivation is educational and architectural: to develop a practical understanding of how AI workloads interact with hardware resources, memory systems, parallel datapaths, and FPGA implementation constraints.
+
+---
+
 ## Overview
 
 The purpose of this repository is to provide clean RTL implementations of hardware-oriented AI accelerator architectures.
